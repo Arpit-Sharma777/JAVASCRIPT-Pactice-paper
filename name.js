@@ -94,6 +94,16 @@ for (let i = 1; i <= 5; i++) {
     console.log("*".repeat(i));
 }
 
+for (let i = 1; i <= 5; i++) {
+  let stars = '';
+  for (let j = 1; j <= i; j++) {
+    stars += '*';
+  }
+  console.log(stars);
+}
+
+
+
 // Write a program to generate a multiplication table from 1 to 5 using nested for loops
 
 for (let i = 1; i <= 5; i++) { // Outer loop for each number from 1 to 5
